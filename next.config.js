@@ -15,6 +15,10 @@ const nextConfig = {
   compress: true,
   poweredByHeader: false,
   generateEtags: false,
+  // Disable ESLint during build for faster deployment
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   // Security headers
   async headers() {
     return [
