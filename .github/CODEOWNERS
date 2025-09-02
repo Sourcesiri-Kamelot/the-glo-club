@@ -1,0 +1,28 @@
+# Global code owners
+* @Sourcesiri-Kamelot
+
+# Frontend components and pages
+/src/components/ @Sourcesiri-Kamelot
+/src/app/ @Sourcesiri-Kamelot
+
+# Backend API routes
+/src/app/api/ @Sourcesiri-Kamelot
+
+# Database and schema
+/prisma/ @Sourcesiri-Kamelot
+
+# AI and Ollama configuration
+/ollama/ @Sourcesiri-Kamelot
+
+# Deployment and scripts
+/scripts/ @Sourcesiri-Kamelot
+/.github/ @Sourcesiri-Kamelot
+
+# Configuration files
+*.config.* @Sourcesiri-Kamelot
+package.json @Sourcesiri-Kamelot
+.env.* @Sourcesiri-Kamelot
+
+# Documentation
+*.md @Sourcesiri-Kamelot
+/docs/ @Sourcesiri-Kamelot
