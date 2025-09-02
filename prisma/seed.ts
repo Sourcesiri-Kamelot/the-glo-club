@@ -9,7 +9,6 @@ async function main() {
       email: 'john@example.com',
       name: 'John Doe',
       bio: 'Podcast creator and content strategist',
-      profilePic: null,
     },
   })
 
@@ -18,7 +17,6 @@ async function main() {
       email: 'sarah@example.com',
       name: 'Sarah Miller',
       bio: 'Video producer and social media expert',
-      profilePic: null,
     },
   })
 
